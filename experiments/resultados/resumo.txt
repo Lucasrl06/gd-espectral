@@ -1,0 +1,20 @@
+Total: 495
+estado
+convergiu    290
+divergiu     165
+limite        40
+
+fator       passo     estado   
+correlacao  1/L       convergiu    60
+            2.1/L     divergiu     60
+            2/(L+mu)  convergiu    60
+escala      1/L       convergiu    35
+                      limite       10
+            2.1/L     divergiu     45
+            2/(L+mu)  convergiu    35
+                      limite       10
+media       1/L       convergiu    50
+                      limite       10
+            2.1/L     divergiu     60
+            2/(L+mu)  convergiu    50
+                      limite       10

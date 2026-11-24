@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gd-espectral"
+version = "0.1.0"
+description = "Implementacao e experimentos do Projeto 3 (Fase I)"
+requires-python = ">=3.10"
+dependencies = ["numpy", "pandas", "matplotlib", "pytest"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
